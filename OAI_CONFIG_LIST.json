@@ -1,0 +1,15 @@
+[
+    {
+        "model": "gpt-4",
+        "api_key": "your_key",
+        "api_type": "azure",
+        "base_url": "your_url",
+        "api_version": "2023-03-15-preview"
+    },
+    {
+        "model": "gpt-3.5-turbo",
+        "api_key": "your_key",
+        "api_type": "openai",
+        "base_url": "your_url"
+    }
+]
