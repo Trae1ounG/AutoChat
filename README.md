@@ -2,10 +2,15 @@
 [![PyPI version](https://badge.fury.io/py/pyautogen.svg)](https://badge.fury.io/py/pyautogen)
 [![Build](https://github.com/microsoft/autogen/actions/workflows/python-package.yml/badge.svg)](https://github.com/microsoft/autogen/actions/workflows/python-package.yml)
 ![Python Version](https://img.shields.io/badge/3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)
+<div align="center">
+<img src='./fig/autochat.png' width=80%/>
+</div>
+
 ## 什么是AutoChat？
 AutoChat是基于[AutoGen](https://github.com/microsoft/autogen)开发的自定义多角色Agent交流工具，能低成本、方便快捷的实现同多个虚拟世界的角色一同交流。只需要通过定制`characters_xx.json`文件，描述你想交流的角色内容，便可轻松实现和多个角色交谈。现已提供两项对话示例：[《甄嬛传》](https://baike.baidu.com/item/%E7%94%84%E5%AC%9B%E4%BC%A0/4701562?fr=ge_ala)、[《果宝特攻》](https://baike.baidu.com/item/%E6%9E%9C%E5%AE%9D%E7%89%B9%E6%94%BB/9754998?fr=ge_ala)。
 ## 对话示例
-甄嬛传(`chat_with_zhenhuan.py`):
+甄嬛传(`chat_with_zhenhuan.py`)
+![甄嬛传](./fig/甄嬛.gif)
 * 皇上（用户）: 传甄嬛该斩！
 * 太监: 皇上，臣这就去传旨。
 * 甄嬛: 皇上，臣妾这便知罪，愿受皇上处置。
@@ -19,6 +24,7 @@ AutoChat是基于[AutoGen](https://github.com/microsoft/autogen)开发的自定�
 * 甄嬛: 皇上，臣妾与温医生无非是青梅竹马的旧识，与朝堂之事更无半分关联，万望皇上明鉴。
 
 果宝特攻(`chat_with_guobao.py`)：
+![果宝](./fig/果宝1.gif)
 * 上官子怡（用户）: 橙留香，东方求败来了！
 * 东方求败: 果宝特攻，我东方求败已经初步完成了歪教大计！你们也无力阻止！
 * 橙留香: 我自横刀向天笑，去留肝胆两昆仑。东方求败，你这歪教大计休想得逞！我橙留香绝不会让你坏了我们的国家！
