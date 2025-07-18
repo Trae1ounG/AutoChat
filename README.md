@@ -1,5 +1,5 @@
 # AutoChat
-[![PyPI version](https://badge.fury.io/py/pyautogen.svg)](https://badge.fury.io/py/pyautogen)
+[![PyPI version](https://badge.fury.io/py/ag2.svg)](https://badge.fury.io/py/ag2)
 [![Build](https://github.com/microsoft/autogen/actions/workflows/python-package.yml/badge.svg)](https://github.com/microsoft/autogen/actions/workflows/python-package.yml)
 ![Python Version](https://img.shields.io/badge/3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)
 <div align="center">
@@ -35,7 +35,7 @@ AutoChat是基于[AutoGen](https://github.com/microsoft/autogen)开发的自定�
 AutoChat 需要 **Python version >= 3.8, < 3.13**. 可以使用简单的pip命令安装`AutoGen`:
 
 ```bash
-pip install pyautogen
+pip install ag2
 ```
 如果有额外的库可自行安装。
 
